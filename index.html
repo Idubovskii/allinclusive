@@ -1,61 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width">
     <link rel="stylesheet" href="./css/style.css">
-    <title>Allinclusive</title>
-</head>
-<body>
-    <div class="headliner">
-        <div class="headliner__head">
-            <div class="leftlogo"><img src="./images/AXIT.svg" alt=""></div>
-            <div class="rightmenu">
-                <ul class="rightmenu_list">
-                    <li>Features</li>
-                    <li>About</li>
-                    <li>Pricing</li>
-                    <li>Reviews</li>
-                    <li>Contact</li>
-                </ul>
+    <title>AxitAdaptive</title>
+  </head>
+  <body class="page-top" id="page-top">
+    <header class="header">
+      <div class="container">
+        <div class="row align-items-center">
+          <a class="header__logo-link" href="#page-top">
+            <img class="header__logo" src="./images/AXIT.svg" alt="AXIT" >
+          </a>
+          <nav class="nav">
+            <div class="nav__icon">
+              <span class="nav__icon-item"></span>
+              <span class="nav__icon-item"></span>
+              <span class="nav__icon-item"></span>
+              <span class="nav__icon-item"></span>
             </div>
-        </div>
-        <div class="headliner__container">
-            <div class="hedliner__content">
-                <div class="headliner__maincontainer">
-                    <div class="leftmaincontent">
-                        <img src="./images/headlinercontainerlogo.svg" alt="">
-                        <div class="hedlinertext">MODERN AXURE TEMPLATE <div>FOR BEAUTIFUL</div>PROTOTYPES</div>
-                        <div class="hedlinersmalltext">Lorem ipsum dolor sit amet, <div>consectetur adipiscing elit</div></div>
-                        <div class="headliner__botton">Download</div>
-                    </div>
-                    <div class="rightmaincontent">
-                        <div class="rightmaincontent-title">Try Your <span class="redtext"> FREE</span> Trial Today</div>
-                        <div class="rightmaincontent-area">Name</div>
-                        <div class="rightmaincontent-area">Email</div>
-                        <div class="rightmaincontent-area">Password</div>
-                        <div class="rightmaincontent-footer">Get Started</div>
-                    </div>
-                </div>
+            <div class="nav__links"><a class="nav__link" href="#features">features</a><a class="nav__link" href="#about">about</a><a class="nav__link" href="#pricing">pricing</a><a class="nav__link" href="#reviews">reviews</a><a class="nav__link" href="#contact">contact</a>
             </div>
+          </nav>
         </div>
-        <div class="headliner__footer">
-            <div class="headliner__footer-lefttext">Social Media<div class="headliner__footer-smalltext">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                Aenean euismod bibendum laoreet.</div>
+      </div>
+    </header>
+    <section class="hero">
+      <div class="hero__overlay"></div>
+      <div class="container hero__container">
+        <div class="row">
+          <div class="hero__info">
+            <img class="hero__logo" src="./images/headlinercontainerlogo.svg" alt="AXIT">
+            <h1 class="main-title main-title--level--1">MODERN AXURE TEMPLATE<div>FOR BEAUTIFUL</div> PROTOTYPES</h1>
+            <div class="hero__text">
+              Lorem ipsum dolor sit amet,<div>consectetur adipiscing elit</div> 
+            </div><a class="button button--transparent" href="#">Download</a>
+          </div>
+          <div class="hero__form-wrapper">
+            <form class="hero__form" method="post" action="#">
+              <div class="hero__form-header">TRY YOUR 
+                <span class="hero__form-header-part">FREE</span> TRIAL TODAY
+              </div>
+              <div class="hero__form-fields">
+                <input class="input hero__form-input-name" type="text" placeholder="Name">
+                <input class="input hero__form-input-email" type="text" placeholder="Email">
+                <input class="input" type="password" placeholder="Password">
+              </div>
+              <input class="hero__form-button" type="submit" value="Get Started">
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="social">
+      <div class="container">
+        <div class="row">
+          <div class="social__info">
+            <h2 class="social__title alt-title">Social Media</h2>
+            <div class="text">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Aenean euismod bibendum laoreet.
+                
+              </p>
             </div>
-            <div class="headliner__footer__images">
-                <div class="imagesfoot"> <img src="./images/facebook.svg" alt=""></div>
-                <div class="imagesfoot"> <img src="./images/twitter.svg" alt=""></div>   
-                <div class="imagesfoot"> <img src="./images/in.svg" alt=""></div>   
-                <div class="imagesfoot"> <img src="./images/p.svg" alt=""></div>   
-                <div class="imagesfoot"> <img src="./images/inst.svg" alt=""></div>   
-                <div class="imagesfoot"> <img src="./images/git.svg" alt=""></div>   
-                <div class="imagesfoot"> <img src="./images/wifi.svg" alt=""></div>
-            </div>       
+          </div>
+          <div class="social__links">
+            <a class="social__link" href="http://facebook.com" target="_blank">
+              <img class="fa fa-facebook-f" src="./images/facebook.svg""></img>
+            </a><a class="social__link" href="http://twitter.com" target="_blank">
+              <img class="fa fa-twitter" src="./images/twitter.svg" width="50px"></img>
+            </a><a class="social__link" href="http://plus.google.com" target="_blank">
+              <img class="fa fa-google-plus" src="./images/in.svg" width="50px"></img>
+            </a><a class="social__link" href="http://pinterest.com" target="_blank">
+              <img class="fa fa-pinterest" src="./images/p.svg" width="50px"></img>
+            </a><a class="social__link" href="http://instagram.com" target="_blank">
+              <img class="fa fa-instagram" src="./images/inst.svg" width="50px"></img></a>
+              <a class="social__link" href="http://stumbleupon.com" target="_blank">
+                <img class="fa fa-stumbleupon" src="./images/git.svg" width="50px"></img></a>
+                <a class="social__link" href="#" target="_blank">
+                  <img class="fa fa-rss" src="./images/wifi.svg" width="50px"></img></a>
+          </div>
         </div>
-    </div>
-    <div class="tabs">
+      </div>
+    </section>
+    <section class="tabs">
+      <div class="container">
         <div class="tabs__body">
             <div class="tabs__header">
                 <div class="tabs__item"><p>tab 1</p></div>
@@ -63,178 +95,221 @@
                 <div class="tabs__item"><p>tab 3</p></div>
             </div>
             <div class="tabs__main">
-                <div class="tabs__topic">Tabs with soft transitioning effect.</div>
-                <div class="tabs__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean <div>euismod</div>
-                    bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et <div>viverra</div>
-                    justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque 
-                    penatibus et magnis dis parturient montes.                 
-                <div class="tabs__last-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean <div>euismod</div>
-                    bibendum laoreet.</div></div>
-                <button class="tabs__button">Download</button>
+              <div class="tabs__leftpart">
+                  <h3 class="tabs__topic alt-title">Tabs with soft transitioning effect.</h3>
+                  <p class="tabs__text text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod
+                      bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra
+                      justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque 
+                      penatibus et magnis dis parturient montes.</p>                 
+                  <p class="tabs__last-text text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod
+                      bibendum laoreet.</p>
+                  <a class="button button--red" href="#">Download</a>
+              </div>
+              <div class="tabs__image-wrapper">
                 <img class="tabs__img" src="./images/1.jpg" alt="error">
+              </div>
             </div>
         </div>
-    </div>
-    <div class="about">
-        <div class="about__body">
-            <div class="about__header">
-                <div class="about__title title">WHY THIS IS AWESOME</div>
-                <div class="about__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
-            </div>
-            <div class="about__row">
-                <div class="about__column">
-                    <div class="item-about">
-                        <div class="item-about__icon">
-                            <img src="./images/about_icon_1.jpg" alt="" />
-                        </div>
-                        <div class="item-about__title">Thoughtful Design</div>
-                        <div class="item-about__text">Lorem ipsum dolor sit amet, consectetur <div>adipiscing</div>
-                            elit. Aenean euismod bibendum laoreet. Proin gravida  dolor sit amet lacus <div>accumsan et viverra</div></div>
-                    </div>
-                </div>
-                <div class="about__column">
-                    <div class="item-about">
-                        <div class="item-about__icon">
-                            <img src="./images/about_icon_2.jpg" alt="" />
-                        </div>
-                        <div class="item-about__title">Thoughtful Design</div>
-                        <div class="item-about__text">Lorem ipsum dolor sit amet, consectetur <div>adipiscing</div> 
-                            elit. Aenean euismod bibendum laoreet. Proin gravida  dolor sit amet lacus <div>accumsan et viverra</div></div>
-                    </div>
-                </div>
-                <div class="about__column">
-                    <div class="item-about">
-                        <div class="item-about__icon">
-                            <img src="./images/about_icon_3.jpg" alt="" />
-                        </div>
-                        <div class="item-about__title">Thoughtful Design</div>
-                        <div class="item-about__text">Lorem ipsum dolor sit amet, consectetur <div>adipiscing</div> 
-                            elit. Aenean euismod bibendum laoreet. Proin gravida  dolor sit amet lacus <div>accumsan et viverra</div></div>
-                    </div>
-                </div>
-            </div>
+      </div>
+    </section>
+    <section class="about" id="about">
+      <div class="container about__container">
+        <h2 class="main-title main-title--level--2">Why this is awesome</h2>
+        <div class="about__text text">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </div>
-    </div>
-    <div class="price">
-        <div class="price__head">
-            <div class="price__title">pricing options</div>
-            <div class="price__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+        <ul class="about__list">
+          <li class="about__item">
+            <div class="about__icon-wrapper"><img class="fa fa-lightbulb-o about__icon" src="./images/about_icon_1.jpg"></img></div>
+            <h3 class="about__header">Thoughtful Design</h3>
+            <div class="text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing
+              elit. Aenean euismod bibendum laoreet. Proin gravida
+              dolor sit amet lacus accumsan et viverra.
+              
+            </div>
+          </li>
+          <li class="about__item">
+            <div class="about__icon-wrapper"><img class="fa fa-lightbulb-o about__icon" src="./images/about_icon_2.jpg"></img></div>
+            <h3 class="about__header">Thoughtful Design</h3>
+            <div class="text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing
+              elit. Aenean euismod bibendum laoreet. Proin gravida
+              dolor sit amet lacus accumsan et viverra.
+              
+            </div>
+          </li>
+          <li class="about__item">
+            <div class="about__icon-wrapper"><img class="fa fa-lightbulb-o about__icon" src="./images/about_icon_3.jpg"></div>
+            <h3 class="about__header">Thoughtful Design</h3>
+            <div class="text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing
+              elit. Aenean euismod bibendum laoreet. Proin gravida
+              dolor sit amet lacus accumsan et viverra.
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="pricing" id="pricing">
+      <div class="container pricing__container">
+        <h2 class="main-title main-title--level--2">PRICING OPTIONS</h2>
+        <div class="pricing__text text">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </div>
-        <div class="price__body">
-            <div class="price__block">
-                    <div class="blackblock1">Basic</div>
-                    <div class="blackblock2">$10</div>
-                    <div class="blackblock3">Free for life</div>
-                    <div class="normalblock">1 gb of space</div>
-                    <div class="normalblock">1 gb of space</div>
-                    <div class="normalblock">1 gb of space</div>
-                    <div class="normalblock">1 gb of space</div>
-                    <div class="normalblock">1 gb of space</div>
-                    <div class="normalblock">1 gb of space</div>
+        <ul class="pricing__list">
+          <li class="pricing__item">
+            <div class="pricing__header">Basic</div>
+            <div class="pricing__payment">
+              <div class="pricing__price"><span class="pricing__price-part-1">$</span><span class="pricing__price-part-2">10</span></div>
             </div>
-            <div class="price__block block2">
-                <div class="blackblock1">Optima</div>
-                <div class="blackblock2">$20</div>
-                <div class="blackblock3">Free for life</div>
-                <div class="normalblock">1 gb of space</div>
-                <div class="normalblock">1 gb of space</div>
-                <div class="normalblock">1 gb of space</div>
-                <div class="normalblock">1 gb of space</div>
-                <div class="normalblock">1 gb of space</div>
-                <div class="normalblock">1 gb of space</div>
+            <div class="pricing__popular pricing__popular--active">Free for life</div>
+            <ul class="pricing__options">
+              <li class="pricing__option">1 gb of space</li>
+              <li class="pricing__option">1 gb of space</li>
+              <li class="pricing__option">1 gb of space</li>
+              <li class="pricing__option">1 gb of space</li>
+              <li class="pricing__option">1 gb of space</li>
+              <li class="pricing__option">1 gb of space</li>
+            </ul>
+          </li>
+          <li class="pricing__item _seconditem">
+            <div class="pricing__header">Optima</div>
+            <div class="pricing__payment">
+              <div class="pricing__price"><span class="pricing__price-part-1">$</span><span class="pricing__price-part-2">20</span></div>
+            </div>
+            <div class="pricing__popular pricing__popular--active">Free for life</div>
+            <ul class="pricing__options">
+              <li class="pricing__option">1 gb of space</li>
+              <li class="pricing__option">1 gb of space</li>
+              <li class="pricing__option">1 gb of space</li>
+              <li class="pricing__option">1 gb of space</li>
+              <li class="pricing__option">1 gb of space</li>
+              <li class="pricing__option">1 gb of space</li>
+            </ul>
+          </li>
+          <li class="pricing__item">
+            <div class="pricing__header">Pro</div>
+            <div class="pricing__payment">
+              <div class="pricing__price"><span class="pricing__price-part-1">$</span><span class="pricing__price-part-2">30</span></div>
+            </div>
+            <div class="pricing__popular pricing__popular--active">Free for life</div>
+            <ul class="pricing__options">
+              <li class="pricing__option">1 gb of space</li>
+              <li class="pricing__option">1 gb of space</li>
+              <li class="pricing__option">1 gb of space</li>
+              <li class="pricing__option">1 gb of space</li>
+              <li class="pricing__option">1 gb of space</li>
+              <li class="pricing__option">1 gb of space</li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="reviews" id="reviews">
+      <div class="container">
+        <h2 class="main-title main-title--level--2">What our customers are saying</h2>
+        <div class="reviews__text text">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </div>
-        <div class="price__block">
-            <div class="blackblock1">Pro</div>
-            <div class="blackblock2">$30</div>
-            <div class="blackblock3">Free for life</div>
-            <div class="normalblock">1 gb of space</div>
-            <div class="normalblock">1 gb of space</div>
-            <div class="normalblock">1 gb of space</div>
-            <div class="normalblock">1 gb of space</div>
-            <div class="normalblock">1 gb of space</div>
-            <div class="normalblock">1 gb of space</div>
-    </div>
+        <ul class="reviews__list">
+          <li class="reviews__item">
+            <div class="reviews__quote">
+              Lorem ipsum dolor sit amet,
+              consectetur adipisicing elit. Doloribus
+              accusamus expedita repellat similique
+              odio aspernatur ex, architecto eaque
+              quo suscipit.
+            </div>
+            <div class="reviews__customer"><img class="reviews__photo" src="./images/customer1.jpg" width="70" height="70" alt="Jeremy H.">
+              <div class="reviews__customer-text">
+                <div class="reviews__name">Davis Rhiel Madsen</div>
+                <div class="reviews__position">Manager</div>
+              </div>
+            </div>
+          </li>
+          <li class="reviews__item">
+            <div class="reviews__quote">
+              Lorem ipsum dolor sit amet,
+              consectetur adipisicing elit. Doloribus
+              accusamus expedita repellat similique
+              odio aspernatur ex, architecto eaque
+              quo suscipit.
+            </div>
+            <div class="reviews__customer"><img class="reviews__photo" src="./images/customer2.jpg" width="70" height="70" alt="John S.">
+              <div class="reviews__customer-text">
+                <div class="reviews__name">Jaydon Rosser</div>
+                <div class="reviews__position">Manager</div>
+              </div>
+            </div>
+          </li>
+          <li class="reviews__item">
+            <div class="reviews__quote">
+              Lorem ipsum dolor sit amet,
+              consectetur adipisicing elit. Doloribus
+              accusamus expedita repellat similique
+              odio aspernatur ex, architecto eaque
+              quo suscipit.
+            </div>
+            <div class="reviews__customer"><img class="reviews__photo" src="./images/customer3.jpg" width="70" height="70" alt="Susan W.">
+              <div class="reviews__customer-text">
+                <div class="reviews__name">Cooper Dorwart</div>
+                <div class="reviews__position">Manager</div>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="custom">
+      <div class="custom__overlay"></div>
+      <div class="container custom__container">
+        <h2 class="main-title main-title--level--2 custom__title">Stylish axure design</h2>
+        <p class="custom__text">Use the sections you need, remove the ones you don't.  Create gorgeous prototypes faster than ever!</p><a class="button button--transparent" href="#">Download</a>
+      </div>
+    </section>
+    <section class="contact" id="contact">
+      <div class="container contact__container">
+        <h2 class="main-title main-title--level--2">Contact us</h2>
+        <div class="contact__text text">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </div>
-    </div>
-    <div class="comments">
-        <div class="comments__main">
-            <div class="comments__head">
-                <div class="comments__title">what our customers are saying</div>
-                <div class="comments__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+        <form class="contact__form" method="post" action="#">
+          <div class="contact__form-fields">
+            <div class="contact__form-col">
+              <input class="input contact__input" type="text" placeholder="Name">
+              <input class="input contact__input" type="text" placeholder="Email">
+              <input class="input contact__input" type="text" placeholder="Subject">
             </div>
-            <div class="comments__container">
-                <div class="comments__block">Lorem ipsum dolor sit amet, 
-                    <div>consectetur adipisicing elit. Doloribus</div> 
-                    <div>accusamus expedita repellat similique</div> 
-                    <div>odio aspernatur ex, architecto eaque</div> 
-                    quo suscipit.</div>
-                <div class="comments__block">Lorem ipsum dolor sit amet, 
-                    <div>consectetur adipisicing elit. Doloribus</div> 
-                    <div>accusamus expedita repellat similique</div> 
-                    <div>odio aspernatur ex, architecto eaque</div> 
-                    quo suscipit.</div>
-                <div class="comments__block">Lorem ipsum dolor sit amet, 
-                    <div>consectetur adipisicing elit. Doloribus</div> 
-                    <div>accusamus expedita repellat similique</div> 
-                    <div>odio aspernatur ex, architecto eaque</div> 
-                    quo suscipit.</div>
+            <div class="contact__form-col">
+              <textarea class="input contact__textarea" placeholder="Message"></textarea>
             </div>
-            <div class="comments__footer">
-                <div class="comments__customer">
-                    <img class="comments__img" src="./images/customer1.jpg" alt="">
-                    <div class="customer__text">Davis Rhiel Madsen<div class="customer__smalltext">Manager</div>
-                    </div>
-                </div>
-                <div class="comments__customer">
-                    <img class="comments__img" src="./images/customer2.jpg" alt="">
-                    <div class="customer__text">Jaydon Rosser<div class="customer__smalltext">Manager</div>
-                    </div>
-                </div>
-                <div class="comments__customer">
-                    <img class="comments__img" src="./images/customer3.jpg" alt="">
-                    <div class="customer__text">Cooper Dorwart<div class="customer__smalltext">Manager</div>
-                    </div>
-                </div>
-            </div>
-        </div>    
-    </div>
-    <div class="design">
-        <div class="design__content">
-            <div class="design__title">STYLISH AXURE DESIGN</div>
-            <div class="design__text">Use the sections you need, remove the ones you don't.  Create gorgeous prototypes faster than ever!</div>
-            <div class="design__botton">Download</div>
+          </div>
+          <input class="button button--red" type="submit" value="Send Message">
+        </form>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__links">
+          <a class="footer__link" href="http://facebook.com" target="_blank">
+            <img class="fa fa-facebook-f" src="./images/facebook_icon.svg"></img></a>
+            <a class="footer__link" href="http://twitter.com" target="_blank">
+              <img class="fa fa-twitter" src="./images/twitter_icon.svg"></img></a>
+              <a class="footer__link" href="http://plus.google.com" target="_blank">
+                <img class="fa fa-google-plus" src="./images/linkedin_icon.svg"></img></a>
+                <a class="footer__link" href="http://pinterest.com" target="_blank">
+                  <img class="fa fa-pinterest" src="./images/pinterest_icon.svg"></img></a>
+                  <a class="footer__link" href="http://instagram.com" target="_blank">
+                    <img class="fa fa-instagram" src="./images/instagram_icon.svg"></img></a>
+                    <a class="footer__link" href="http://stumbleupon.com" target="_blank">
+                      <img class="fa fa-stumbleupon" src="./images/github_icon.svg"></img></a>
+                      <a class="footer__link" href="#" target="_blank">
+                        <img class="fa fa-rss" src="./images/rss_icon.svg"></img>
+                      </a>
         </div>
-    </div>
-    <div class="footfooter">
-        <div class="footfooter__container">
-            <div class="footfooter__head">
-                <div class="footfooter__title">contact us</div>
-                <div class="footfooter__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
-            </div>
-            <div class="footfooter__maincontent">
-                <div class="footfooter__right">
-                    <div class="footfooter__area name">Name</div>
-                    <div class="footfooter__area email">Email</div>
-                    <div class="footfooter__area pass">Password</div>
-                </div>
-                <div class="footfooter__left">
-                    <div class="footfooter__area mess">Message</div>
-                </div>
-            </div>
-            <div class="footfooter__button">Send Message</div>
-        </div>
-        <div class="footfooter__footer">
-            <div class="footfooter__images">
-                <img src="./images/facebook.svg" alt="">
-                <img src="./images/twitter.svg" alt="">
-                <img src="./images/in.svg" alt="">
-                <img src="./images/p.svg" alt="">
-                <img src="./images/inst.svg" alt="">
-                <img src="./images/git.svg" alt="">
-                <img src="./images/wifi.svg" alt="">
-            </div>
-            <div class="footfooter__footertext">© 2015 Axure Themes</div>
-        </div>
-    </div>
-</body>
+        <div class="footer__copy">&copy; 2015 Axure Themes</div>
+      </div>
+    </footer>
+  </body>
 </html>
