@@ -1,0 +1,223 @@
+/* Подготовочная--------------------------------------------------------------*/
+html {
+    font-family: sans-serif;
+}
+
+body {
+    margin: 0
+}
+@font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/raleway-v28-latin/raleway-v28-latin-regular.eot'); 
+    src: local('Raleway'),
+        url('../fonts/raleway-v28-latin/raleway-v28-latin-regular.eot') format('embedded-opentype'), 
+        url('../fonts/raleway-v28-latin/raleway-v28-latin-regular.woff2') format('woff2'), 
+        url('../fonts/raleway-v28-latin/raleway-v28-latin-regular.woff') format('woff'), 
+        url('../fonts/raleway-v28-latin/raleway-v28-latin-regular.ttf') format('truetype'), 
+        url('../fonts/raleway-v28-latin/raleway-v28-latin-regular.svg') format('svg');
+}
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/open-sans-v34-latin/open-sans-v34-latin-regular.eot'); 
+    src: local('Open Sans'),
+        url('../fonts/open-sans-v34-latin/open-sans-v34-latin-regular.eot') format('embedded-opentype'), 
+        url('../fonts/open-sans-v34-latin/open-sans-v34-latin-regular.woff2') format('woff2'), 
+        url('../fonts/open-sans-v34-latin/open-sans-v34-latin-regular.woff') format('woff'), 
+        url('../fonts/open-sans-v34-latin/open-sans-v34-latin-regular.ttf') format('truetype'), 
+        url('../fonts/open-sans-v34-latin/open-sans-v34-latin-regular.svg') format('svg');
+}
+
+body {
+    font-family: "Open Sans",sans-serif;
+    font-size: 0.875rem;
+    line-height: 1.4;
+    color: #000
+}
+
+html {
+    box-sizing: border-box
+}
+
+*,*:before,*:after {
+    box-sizing: inherit
+}
+
+ul,ol {
+    margin: 0;
+    padding: 0;
+    list-style-type: none
+}
+
+.clearfix:after {
+    content: '';
+    display: table;
+    clear: both
+}
+
+.page-top {
+    padding-top: 70px
+}
+/* Ограничивающий контейнер*/
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px
+}
+/* Ограничивающий контейнер*/
+.row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap
+}
+
+.align-items-center {
+    align-items: center
+}
+
+.align-items-end {
+    align-items: flex-end
+}
+
+.main-title {
+    font-family: 'Raleway';
+    font-size: 2.25rem;
+    font-weight: 400;
+    text-transform: uppercase
+}
+
+@media (max-width: 576px) {
+    .main-title {
+        font-size:1.5rem
+    }
+}
+
+.main-title--level--1 {
+    position: relative;
+    margin: 0 0 68px -2px;
+    line-height: 1.2;
+    color: #fff
+}
+
+.main-title--level--1:after {
+    content: '';
+    position: absolute;
+    left: 4px;
+    bottom: -34px;
+    width: 170px;
+    height: 2px;
+    background: #fff
+}
+
+.main-title--level--2 {
+    position: relative;
+    margin: 0 0 52px;
+    line-height: 1
+}
+
+.main-title--level--2:after {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    content: '';
+    bottom: -27px;
+    width: 170px;
+    height: 2px;
+    background: #EC7979
+}
+
+.alt-title {
+    font-family: "Open Sans",sans-serif;
+    font-size: 1.25rem;
+    font-weight: 700;
+    line-height: 1;
+    color: #000
+}
+
+.alt-title--with--divider {
+    position: relative;
+    margin: 0 0 56px
+}
+
+
+.text {
+    color: #000000;
+    font-family:'Raleway';
+    font-size: 18px;
+}
+
+.text p {
+    margin: 0 0 21px
+}
+
+.text p:last-child {
+    margin-bottom: 0
+}
+
+@media (max-width: 576px) {
+    .text p {
+        margin:0 0 15px
+    }
+}
+
+.input {
+    width: 100%;
+    padding: 6px 14px;
+    border: none;
+    font-size: 0.875rem;
+    color: #bdbdbd;
+    box-shadow: 0px 1px 0px 0px rgba(0,0,0,0.16)
+}
+
+.input:focus {
+    box-shadow: 0 1px 5px rgba(0,0,0,0.4)
+}
+
+.button {
+    display: inline-block;
+    padding: 15px 80px;
+    font-family: "Open Sans",sans-serif;
+    font-size: 0.9375rem;
+    font-weight: 600;
+    line-height: 1;
+    color: #fff;
+    text-decoration: none
+}
+
+.button--transparent {
+    border: 2px solid #fff;
+    background: transparent;
+    transition: 0.3s
+}
+
+.button--red {
+    padding: 20px 80px;
+    border: none;
+    border-radius: 3px;
+    background: #EC7979;
+    transition: 0.3s
+}
+
+.list__info {
+    padding-left: 30px
+}
+
+.list__title {
+    margin: 0 0 7px;
+    font-size: 0.875rem;
+    font-weight: bold;
+    line-height: 1
+}
+
+.list__item {
+    display: flex;
+    margin-bottom: 38px
+}
+
+.list__item:last-child {
+    margin: 0
+}
+/* Подготовочная-----------------------------------------------------------*/
